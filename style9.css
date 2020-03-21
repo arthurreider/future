@@ -8,7 +8,7 @@
 .ret {
     background-color: black;
     width: 100%;
-    height: 75px;
+    height: 50px;
 }
 
 .text1 {
@@ -26,12 +26,13 @@ h1 {
 h1 span::after {
     content: "";
     position: absolute;
-    left: 0;
+    left: 14px;
     bottom: 0;
     height: 2px;
     width: 70px;
     background-color: #ffee00;
     padding: 0px;
+    margin: -13px;
 }
 
 h1 span {
@@ -81,4 +82,24 @@ h1 span {
     margin-left: 850px;
     font-family: 'Roboto Condensed', sans-serif;
     margin-top: -100px;
+}
+.lil{
+    width: 100%;
+    height: 100px;
+    color: gray;
+    padding-left: 560px;
+    padding-top: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.knopka img{
+    width: 100px;
+    height: 100px;
+}
+.vivo{
+    padding-left: 269px;
+    margin-top: -50px;
+}
+.fakt{
+    padding-left: 1070px;
+    margin-top: -21px;
 }
