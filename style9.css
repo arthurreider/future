@@ -103,3 +103,10 @@ h1 span {
     padding-left: 1070px;
     margin-top: -21px;
 }
+.li::before{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    content: "";
+}
